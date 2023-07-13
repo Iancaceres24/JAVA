@@ -13,7 +13,7 @@ let obra_social = "no"
 function porcentaje(num,porc){
     return num * porc / 100 
 }
-     
+
 
 alert("Lista de empleados y sueldos por jornada laboral")
 do{
@@ -23,7 +23,7 @@ do{
     let horas = Number(prompt("Ingrese las horas trabajadas en la jornada: "))
     let sueldo_hora = Number(prompt("Ingrese cuanto gana por hora: "))
     do{
-          obra_social = prompt("Tiene obra social(si/no): ").toLowerCase()}
+        obra_social = prompt("Tiene obra social(si/no): ").toLowerCase()}
     while(obra_social != "si" && obra_social != "no")
     sueldo = sueldo_hora * horas
     if(horas >=8 ){
