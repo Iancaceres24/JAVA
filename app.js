@@ -1,9 +1,4 @@
 
-/* Hacer un programa que pida, nombre de un empleado, horas trabajadas y cuanto gana por hora.
-Que muestre el nombre, las horas trabajadas en la jornada, cuanto gano por hora y en la jornada.
-si trabajo mas de 8 horas un extra del 10%.
-si tiene obra social un descuento del 5%.*/
-
 let salir = "no" 
 let sueldo = 0
 let sueldo_total = 0
